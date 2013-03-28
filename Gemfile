@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 gem 'rails', '3.2.12'
 
@@ -27,7 +27,7 @@ end
 
 gem 'jquery-rails'
 
-gem 'mysql2'
+gem 'mysql2', '~> 0.3.7', :group => :production
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
